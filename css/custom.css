@@ -1,0 +1,53 @@
+body {
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+
+}
+
+div.px-font{
+    font-size: 18px;
+}
+
+.navbar-fixed-top .nav {
+    padding: 0px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 0px;
+}
+
+
+@media(min-width:768px) {
+    body {
+        padding-top: 10px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 0px 0;
+    }
+}
+
+.jumbotron {
+  padding: 15px 10px;
+  margin-bottom: 10px;
+}
+
+div.row {
+  margin-bottom: -20px;
+}
+
+#site-title {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+
+.bottom-three {
+     margin-bottom: 3cm;
+}
+
+
